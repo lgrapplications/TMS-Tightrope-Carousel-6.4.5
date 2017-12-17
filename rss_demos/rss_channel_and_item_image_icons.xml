@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+	<title>We asked people: How are You Feeling Today?</title>
+	<image>
+		<!-- Url - Define the actual image tag that you will be using the #ChannelImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<url>https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/images/question_mark.png</url>
+	</image>
+	<item>
+		<title>Like a Nerd</title>
+		<description>This RSS Feed stuff gets easier every day.</description>
+		<!-- Enclosure - Define the actual image tag that you will be using the #ItemImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<enclosure url="https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/images/nerd.jpg" type="image/jpeg"/>
+	    <pubDate>Wed, 16 Dec 2017 08:24:34 -0500</pubDate>
+	</item>
+	<item>
+		<title>Sassy</title>
+		<description>You can't touch me!</description>
+		<!-- Enclosure - Define the actual image tag that you will be using the #ItemImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<enclosure url="https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/images/one_eyed_toung.jpg" type="image/jpeg"/>
+	    <pubDate>Wed, 16 Dec 2017 08:24:34 -0500</pubDate>
+	</item>
+	<item>
+		<title>In the Mood</title>
+		<description>Like Ms. Thing.</description>
+		<!-- Enclosure - Define the actual image tag that you will be using the #ItemImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<enclosure url="https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/images/ms_love.jpg" type="image/jpeg"/>
+	    <pubDate>Wed, 16 Dec 2017 08:24:34 -0500</pubDate>
+	</item>
+	<item>
+		<title>Ms. Thing How about Dinner and a Movie?</title>
+		<description>Will these flowers work?.</description>
+		<!-- Enclosure - Define the actual image tag that you will be using the #ItemImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<enclosure url="https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/images/mr_player.jpg" type="image/jpeg"/>
+	    <pubDate>Wed, 16 Dec 2017 08:24:34 -0500</pubDate>
+	</item>
+</channel>
+</rss>

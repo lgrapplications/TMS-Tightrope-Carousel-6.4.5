@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- THIS EXAMPLE DISPLAYS AN IMAGE ONLY -->
+<rss version="2.0">
+<channel>
+	<title/>
+	<image>
+		<!-- Define the actual image tag that you will be using the #ChannelImageURL# for the Web Picture Block Picture URL reference in Carousel -->
+		<url>https://stealth-apsvaw.streamhoster.com/test_rss_feeds_carousel/carousel_896X606.png</url>
+	</image>
+	<item><title/></item>
+</channel>
+</rss>
