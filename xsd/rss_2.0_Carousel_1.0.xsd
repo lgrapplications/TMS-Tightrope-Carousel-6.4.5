@@ -165,11 +165,6 @@ The terms "reproduce," "reproduction," "derivative works," and "distribution" ha
             <xs:documentation>The PICS rating for the channel.</xs:documentation>
           </xs:annotation>
         </xs:element>
-        <xs:element name="textInput" type="TextInput" minOccurs="0">
-          <xs:annotation>
-            <xs:documentation>Specifies a text input box that can be displayed with the channel.</xs:documentation>
-          </xs:annotation>
-        </xs:element>
         <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
           <xs:annotation>
             <xs:documentation>Extensibility element.</xs:documentation>
@@ -257,33 +252,6 @@ The terms "reproduce," "reproduction," "derivative works," and "distribution" ha
       <xs:maxInclusive value="144"/>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="TextInput">
-    <xs:annotation>
-      <xs:documentation>The purpose of this element is something of a mystery! You can use it to specify a search engine box. Or to allow a reader to provide feedback. Most aggregators ignore it.</xs:documentation>
-    </xs:annotation>
-    <xs:all>
-      <xs:element name="title" type="xs:string">
-        <xs:annotation>
-          <xs:documentation>The label of the Submit button in the text input area.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="description" type="xs:string">
-        <xs:annotation>
-          <xs:documentation>Explains the text input area.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="name" type="xs:string">
-        <xs:annotation>
-          <xs:documentation>The name of the text object in the text input area.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-      <xs:element name="link" type="xs:anyURI">
-        <xs:annotation>
-          <xs:documentation>The URL of the CGI script that processes text input requests.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
-    </xs:all>
-  </xs:complexType>
   <xs:simpleType name="EmailAddress">
     <xs:annotation>
       <xs:documentation>Using the regexp definiton of E-Mail Address by Lucadean from the .NET RegExp Pattern Repository at http://www.3leaf.com/default/NetRegExpRepository.aspx </xs:documentation>
